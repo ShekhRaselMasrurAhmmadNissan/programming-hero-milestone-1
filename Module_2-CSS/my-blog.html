@@ -8,34 +8,47 @@
 	<!-- Adding the website icon -->
 	<link rel="shortcut icon" href="./images/css_logo.png" type="image/x-icon">
 	<!-- Linking External CSS -->
-	<link rel="stylesheet" href="style.css">
+	<!-- <link rel="stylesheet" href="./css/style.css"> -->
 	<title>My Blog</title>
 
 	<!-- Internal or Embedded CSS -->
 	<style>
 		.blog {
 			background-color: skyblue;
+			border: 10px solid rgb(95, 100, 237);
+			border-radius: 6px;
+			padding: 10px 20px;
+			width: 75%;
+			margin: 20px auto;
 		}
 		.author-name {
 			color: red;
+		}
+
+		.blog-title {
+			text-align: center;
+		}
+
+		.blog-content {
+			text-align: justify;
 		}
 	</style>
 </head>
 <body>
 	<div class="blog">
-		<h3>First Travel to Sundarban</h3>
+		<h3 class="blog-title">First Travel to Sundarban</h3>
 		<small>Author <span class="author-name">Shekh Rasel</span></small>
-		<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi facere id est quod eos voluptate beatae nesciunt laboriosam natus dolores eaque repellendus, error ullam illum officiis, laborum veniam, quibusdam cumque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, incidunt! Rem sunt nostrum culpa ducimus nam ullam necessitatibus blanditiis. Nam quis deleniti debitis praesentium expedita, suscipit esse error provident neque?</p>
+		<p class="blog-content">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi facere id est quod eos voluptate beatae nesciunt laboriosam natus dolores eaque repellendus, error ullam illum officiis, laborum veniam, quibusdam cumque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, incidunt! Rem sunt nostrum culpa ducimus nam ullam necessitatibus blanditiis. Nam quis deleniti debitis praesentium expedita, suscipit esse error provident neque?</p>
 	</div>
 	<div class="blog">
-		<h3>Travel to country road</h3>
+		<h3 class="blog-title">Travel to country road</h3>
 		<small>Author: <span class="author-name">Shekh Rasel</span></small>
-		<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus, iste numquam repellat debitis modi voluptas officiis tempore eveniet reiciendis velit quibusdam, pariatur, esse obcaecati veniam beatae cum ipsa porro adipisci.</p>
+		<p class="blog-content">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Delectus, iste numquam repellat debitis modi voluptas officiis tempore eveniet reiciendis velit quibusdam, pariatur, esse obcaecati veniam beatae cum ipsa porro adipisci.</p>
 	</div>
 	<div class="blog">
-		<h3>Travel to Bhairab River</h3>
+		<h3 class="blog-title">Travel to Bhairab River</h3>
 		<small>Author: <span class="author-name">Shekh Rasel</span></small>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus nesciunt adipisci rerum voluptas quia, nemo sapiente corrupti consequatur corporis iste nulla quaerat? Magni doloremque culpa aliquid, ratione laudantium itaque quo!</p>
+		<p class="blog-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus nesciunt adipisci rerum voluptas quia, nemo sapiente corrupti consequatur corporis iste nulla quaerat? Magni doloremque culpa aliquid, ratione laudantium itaque quo!</p>
 	</div>
 </body>
 </html>
