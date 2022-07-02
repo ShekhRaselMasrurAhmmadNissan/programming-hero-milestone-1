@@ -9,3 +9,20 @@ small {
 h3 {
 	display: inline;
 }
+
+
+/* Flexbox Example */
+.container {
+	display: flex;
+	flex-wrap: nowrap;
+	background-color: dodgerblue;
+}
+
+.container .numbers {
+	font-size: 30px;
+	background-color: #f1f1f1;
+	line-height: 75px;
+	width: 60%;
+	text-align: center;
+	margin: 20px;
+}
