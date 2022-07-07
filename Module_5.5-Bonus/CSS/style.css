@@ -1,0 +1,13 @@
+h1 {
+	display: inline;
+	background-color: aqua;
+}
+
+span {
+	width: 500px;
+}
+
+p {
+	background-color: darkmagenta;
+	display: inline-block;
+}
