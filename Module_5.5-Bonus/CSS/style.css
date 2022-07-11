@@ -11,3 +11,23 @@ p {
 	background-color: darkmagenta;
 	display: inline-block;
 }
+
+li:first-child {
+	color: chocolate;
+}
+
+li:last-child {
+	background-color: violet;
+}
+
+li:nth-child(2n) {
+	border: 2px solid black;
+}
+
+h3::before {
+	content: 'Hello';
+}
+
+h3::after {
+	content: 'Bye';
+}
